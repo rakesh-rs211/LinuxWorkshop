@@ -1,1 +1,1 @@
-# Commands for the workshop
+# Introduction to Linux Workshop - Winter 2024
