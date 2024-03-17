@@ -1,5 +1,5 @@
 # Introduction to Linux Workshop - Winter 2024
-This readme file is complimentary to slides for the workshop to make it ease for the user to follow through and copy the commands as required. 
+This readme file is complimentary to slides for the workshop to make it easier to follow through and copy the commands, as required. 
 
 ## **Table of content** 
 [**Getting started**](#getting-started)\
