@@ -253,11 +253,11 @@ When you are downloading multiple file from elsewhere, they are usually shared i
 - **tar/gunzip**: To compress/decompress files
 
 ```console
-scp R ./myfile.txt sa130000@login.cac.queensu.ca:~
+scp -R ./myfile.txt sa130000@login.cac.queensu.ca:~
 ```
 ### Exercise 4
 
-1. Create a file called ‘Local_file.txt’. Add a few lines to this file and upload it to Frontenac cluster
+1. Create a file called ‘Local_file.txt’ on your local terminal(not Frontenac). Add a few lines to this file and upload it to your $HOME directory Frontenac cluster.
 
 ## Redirecting Input and Output
 
