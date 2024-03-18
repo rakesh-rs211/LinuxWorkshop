@@ -64,7 +64,7 @@ Note: enter ':q' to exit the manual page*
 ### Excerise 1
 Take 10 minutes for this exercise to explore the filesytem.
 
-1. Open a terminal on your local computer(or on Frontenac) and change to $HOME directory and identify all the files in the folder 
+1. Open a terminal on your local computer(or on Frontenac) and change present working directory to $HOME and identify all the files in the folder 
 2. (Optional) Explore various flags for ‘ls’ command using ‘man’ or ‘- -help’ and find the option to print all the files including hidden file(has a ‘.’ prefix in the file name)
 3. Change the directory to '/global/project/Workshop2023/IntroLinux' and list all the sub-folders
 
