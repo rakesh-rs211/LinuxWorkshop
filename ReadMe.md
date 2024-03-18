@@ -30,6 +30,7 @@ Note: Replace '*sa130XXX*' with the username you received earlier to your regist
 3. *Optional: If you are using **Windows** you can use powershell, instead.*
 
 Take ~15 minutes to complete this exercise and give us a thumbs-up in the chat once you are logged in.
+
 **Note(Optional)**: Course material for this workshop are located at '/global/project/Workshop2023/IntroLinux/CourseMaterial.tar.gz'. You have read permission to copy to any other folder that user have access to. We have created a folder '/global/project/Workshop2023/sausers' with read/write access to all the student accounts. You can create a new sub-directory with your username,'sa130xxx', in this path and copy the file 'CourseMaterial.tar.gz' here.
 ## Linux shell
 Shell is a program that acts a interface between the user and the operating system(Linux kernel) through CLI. On most GNU based system, bash(Bourne-Again-Shell) is the default shell. Almost all operating system including *Windows* have a shell program. On *Windows*, we have *Powershell*. 
