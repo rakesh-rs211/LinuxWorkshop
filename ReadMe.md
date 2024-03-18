@@ -312,7 +312,7 @@ $ pwd
 
 2. On Frontenac we use Slurm as our job scheduler. Running the following to ask for interactive node through scheduler.
     ```
-    salloc --nodes=1 --ntasks=2 --mem=1g --time=15:00 
+    salloc --nodes=1 --ntasks=1 --mem=1g --time=15:00 
     ```
     Once the job is allocated find all the environment variable that start with ‘SLURM’. Use ‘grep’ command to search for the variables.
    
