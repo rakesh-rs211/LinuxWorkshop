@@ -167,6 +167,14 @@ Shrek, Baratheon, Calgary, AB
 Bruce, Loki, Halifax, NS
 Athena, Bane, Toronto, ON
 ```
+Commands to copy course material
+```
+cd /global/project/Workshop2023/sausers/
+cp CourseMaterial.tar.gz sa130244/
+cd sa130244
+tar xvfz CourseMaterial.tar.gz
+cd CourseMaterial/
+```
 Just the commands
 ```
 cd grep_Tut
