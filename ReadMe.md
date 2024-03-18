@@ -261,6 +261,16 @@ When you are downloading multiple file from elsewhere, they are usually shared i
 ```console
 scp -R ./myfile.txt sa130000@login.cac.queensu.ca:~
 ```
+
+### Download Commands
+```console
+wget ftp://ftp.ensembl.org/pub/release-77/gtf/drosophila_melanogaster/Drosophila_melanogaster.BDGP5.77.gtf.gz
+gunzip Drosophila_melanogaster.BDGP5.77.gtf.gz
+
+wget https://github.com/Nek5000/Nek5000/archive/refs/tags/v19.0.tar.gz
+git clone https://github.com/Nek5000/Nek5000.git
+wget https://zenodo.org/records/3736457/files/1_control_trnL_2019_minq7.fastq?download=1 -o 1_control_trnL_2019_minq7.fastq
+```
 ### Exercise 4
 
 1. Create a file called ‘Local_file.txt’ on your local terminal(not Frontenac). Add a few lines to this file and upload it to your $HOME directory Frontenac cluster.
