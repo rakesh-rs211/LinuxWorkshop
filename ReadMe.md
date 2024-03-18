@@ -268,6 +268,8 @@ wget ftp://ftp.ensembl.org/pub/release-77/gtf/drosophila_melanogaster/Drosophila
 gunzip Drosophila_melanogaster.BDGP5.77.gtf.gz
 
 wget https://github.com/Nek5000/Nek5000/archive/refs/tags/v19.0.tar.gz
+tar xvfz v19.0.tar.gz
+
 git clone https://github.com/Nek5000/Nek5000.git
 wget https://zenodo.org/records/3736457/files/1_control_trnL_2019_minq7.fastq?download=1 -o 1_control_trnL_2019_minq7.fastq
 ```
