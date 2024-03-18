@@ -134,7 +134,7 @@ file01.txt
 
 Take 15 minutes to complete this exercise
 
-1. Change directory to ‘/global/project/sg201000/IntroLinux’ and create a folder with your username ‘sa130xxx’
+1. Change directory to ‘/global/project/Workshop2023/sausers’ and create a folder with your username ‘sa130xxx’
 2. Create a file in this folder and enter your first line(‘This is the first line’) into this file 
 3. Now copy the file to a new file
 4. And add a second line to the folder ‘This is a second line’
