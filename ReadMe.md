@@ -261,9 +261,9 @@ scp R ./myfile.txt sa130000@login.cac.queensu.ca:~
 
 ## Redirecting Input and Output
 
-On the shell, the input is taken from keyboard and the output is printed to the terminal or the screen. Linux shell offers the flexibility, to redirect the input and output from elsewhere. For example, we can print the output to a file instead of the screen.
+On the shell, the input is taken from keyboard and the output is printed to the terminal or the screen. Linux shell offers the flexibility to redirect the input and output, elsewhere. For example, we can print the output to a file instead of the screen.
 
-We can redirect this standard out(***stdout***), standard error(***stderr***) and standard input (***stdin***) using '***>***' and '***<***'.
+We can redirect standard out(***stdout***), standard error(***stderr***) and standard input (***stdin***) using '***>***' and '***<***'.
 
 ```console
 [04_CalcPi]$ ./calcPi
@@ -312,7 +312,7 @@ $ pwd
 
 2. On Frontenac we use Slurm as our job scheduler. Running the following to ask for interactive node through scheduler.
     ```
-    salloc --nodes=1 --ntasks=2 --mem=1g --time=15:00 --account=teaching --res=teaching
+    salloc --nodes=1 --ntasks=2 --mem=1g --time=15:00 
     ```
     Once the job is allocated find all the environment variable that start with ‘SLURM’. Use ‘grep’ command to search for the variables.
    
