@@ -22,7 +22,7 @@ To begin with let's connect to a remote server, Frontenac, to access a *Linux Sh
 
 > ssh -Y sa130XXX@login.cac.queensu.ca
 
-Note: Replace '*sa130XXX*' with the username you received earlier to your registered email. The *-Y* flag in the ssh command is for enable X11 forwarding for graphical interface. 
+Note: Replace '*sa130XXX*' with the username you received earlier to your registered email. The *-Y* flag enables X11 forwarding for graphical interface. 
 
 ### *Exercise 0* 
 1. Download a MobaXterm or any other terminal emulator and installing on your computer. For Mac user, you can open the '*Terminal*' application.
