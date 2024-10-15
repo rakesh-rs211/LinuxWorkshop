@@ -31,7 +31,7 @@ Note: Replace '*sa130XXX*' with the username you received earlier to your regist
 
 Take ~15 minutes to complete this exercise and give us a thumbs-up in the chat once you are logged in.
 
-**Note(Optional)**: Course material for this workshop are located at '/global/project/Workshop2023/IntroLinux/CourseMaterial.tar.gz'. You have read permission to copy the 'tar' file. We have created a folder '/global/project/Workshop2023/sausers' with read/write access to all the student accounts. You can create a new sub-directory with your username,'sa130xxx', in this path and copy the file 'CourseMaterial.tar.gz' here.
+**Note(Optional)**: Course material for this workshop are located at '/global/project/Workshop2024/IntroLinux/CourseMaterial.tar.gz'. You have read permission to copy the 'tar' file. We have created a folder '/global/project/Workshop2024/sausers' with read/write access to all the student accounts. You can create a new sub-directory with your username,'sa130xxx', in this path and copy the file 'CourseMaterial.tar.gz' here.
 
 After copying 'tar' to a folder, you can use the following command to untar or decompress the file
 ```console
@@ -50,11 +50,11 @@ Once you are logged to a Linux machine(Frontenac), let explore the filesystem wi
 ```console
 $ pwd 
 /global/home/sa130000 
-$ cd /global/project/Workshop2023/IntroLinux 
+$ cd /global/project/Workshop2024/IntroLinux 
 $ cd ..              # Go to parent directory 
 $ cd ../..           # Moves two directories up
 $ cd -               # Goes to previous directory 
-/global/project/Workshop2023
+/global/project/Workshop2024
 $ ls 
 CourseMaterial.tar.gz  IntroBioInfo  IntroHPC  IntroLinux  IntroMPI_Python  IntroPython  sausers
 $ cd ./IntroLinux/CourseMaterial/   # Relative path 
@@ -72,7 +72,7 @@ Take 10 minutes for this exercise to explore the filesytem.
 
 1. Open a terminal on your local computer(or on Frontenac) and change present working directory to $HOME and identify all the files in the folder 
 2. (Optional) Explore various flags for ‘ls’ command using ‘man’ or ‘- -help’ and find the option to print all the files including hidden file(has a ‘.’ prefix in the file name)
-3. Change the directory to '/global/project/Workshop2023/IntroLinux' and list all the sub-folders
+3. Change the directory to '/global/project/Workshop2024/IntroLinux' and list all the sub-folders
 
 ## Creating files
 
@@ -86,7 +86,7 @@ Now, lets create a few files and learn how to read and write to these files. Not
 - **cat**   : Display the content of the file
 
 ```console
-$ cd /global/project/Workshop2023/sauser
+$ cd /global/project/Workshop2024/sauser
 $ mkdir sa130XXX    # Replace with your username
 $ cd sa130XXX
 $ mkdir Example01 & cd Example01 # Create a subfolder and change directory
@@ -134,7 +134,7 @@ file01.txt
 
 Take 15 minutes to complete this exercise
 
-1. Change directory to ‘/global/project/Workshop2023/sausers’ and create a folder with your username ‘sa130xxx’
+1. Change directory to ‘/global/project/Workshop2024/sausers’ and create a folder with your username ‘sa130xxx’
 2. Create a file in this folder and enter your first line(‘This is the first line’) into this file 
 3. Now copy the file to a new file
 4. And add a second line to the folder ‘This is a second line’
@@ -169,7 +169,7 @@ Athena, Bane, Toronto, ON
 ```
 Commands to copy course material
 ```
-cd /global/project/Workshop2023/sausers/
+cd /global/project/Workshop2024/sausers/
 cp CourseMaterial.tar.gz sa130244/
 cd sa130244
 tar xvfz CourseMaterial.tar.gz
@@ -314,7 +314,7 @@ The value of PI is: 3.1416
 ## File permissions
 
 ### Exercise 5
-1. Copy the folder from '*/global/project/Workshop2023/IntroLinux/CourseMaterial/Example01*' and troubleshoot if you face any issue
+1. Copy the folder from '*/global/project/Workshop2024/IntroLinux/CourseMaterial/Example01*' and troubleshoot if you face any issue
 Note: All sa130XXX accounts are part of sg130000  group
 
 ## Environment variables
