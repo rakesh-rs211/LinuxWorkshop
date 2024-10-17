@@ -20,7 +20,7 @@ This readme file is complimentary to slides for the workshop to make it easier t
 ## Getting started
 To begin with let's connect to a remote server, Frontenac, to access a *Linux Shell*
 
-> ssh -Y sa130XXX@login.cac.queensu.ca
+> ssh sa130XXX@login.cac.queensu.ca
 
 Note: Replace '*sa130XXX*' with the username you received earlier to your registered email. The *-Y* flag enables X11 forwarding for graphical interface. 
 
