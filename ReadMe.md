@@ -315,6 +315,7 @@ The value of PI is: 3.1416
 
 ### Exercise 5
 1. Copy the folder from '*/global/project/Workshop2024/IntroLinux/CourseMaterial/Example01*' and troubleshoot if you face any issue
+   
 Note: All sa130XXX accounts are part of sg130000  group
 
 ## Environment variables
