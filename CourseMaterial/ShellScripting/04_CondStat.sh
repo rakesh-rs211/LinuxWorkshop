@@ -7,7 +7,7 @@ else
 	echo "The first argument is: $1"
 fi
 
-if [ -f $1 ] && [ -z $1 ]
+if [ -f $1 ] && [ -n $1 ]
 then
 	ls -la $1
 else
