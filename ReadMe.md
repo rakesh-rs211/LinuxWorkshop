@@ -255,6 +255,14 @@ $ cd $EBROOTQT5
 [5.9.6]$ find $EBROOTQT5 -type f -name "qt*"
 …
 ```
+## Adding SSH-KEY to the remote server
+```console
+$ ssh-keygen -t rsa
+...
+$ ssh-copy-id -i ~/.ssh/LinuxWS_Frontenac.pub sa130266@login.cac.queensu.ca
+$ ssh -i ~/.ssh/LinuxWS_Frontenac sa130266@login.cac.queensu.ca
+```
+
  
  ## Copying and Downloading files
 We can use the following set of commands to download file from remote server/internet
