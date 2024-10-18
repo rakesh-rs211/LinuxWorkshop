@@ -26,6 +26,7 @@ Note: Replace '*sa130XXX*' with the username you received earlier to your regist
 
 ### *Exercise 0* 
 1. Download a MobaXterm or any other terminal emulator and installing on your computer. For Mac user, you can open the '*Terminal*' application.
+	https://mobaxterm.mobatek.net/download.html
 2. Connect to the Frontenac cluster using ssh-client. Instructions to access the cluster were provided in the email.
 3. *Optional: If you are using **Windows** you can use powershell, instead.*
 
