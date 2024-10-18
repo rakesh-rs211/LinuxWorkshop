@@ -1,5 +1,5 @@
 # Introduction to Linux Workshop - Fall 2024
-This readme file is complimentary to slides for the workshop to make it easier to follow through and copy the commands, as required. 
+This readme file is complimentary to slides for the workshop to make it easier to follow through and copy the commands, as required. Recording from a similar workshop from Oct 2023 is available: https://vimeo.com/877113992
 
 ## **Table of content** 
 [**Getting started**](#getting-started)\
