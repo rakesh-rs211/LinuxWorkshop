@@ -87,7 +87,7 @@ Now, lets create a few files and learn how to read and write to these files. Not
 - **cat**   : Display the content of the file
 
 ```console
-$ cd /global/project/Workshop2024/sauser
+$ cd /global/project/Workshop2024/sausers_Fall2024
 $ mkdir sa130XXX    # Replace with your username
 $ cd sa130XXX
 $ mkdir Example01 & cd Example01 # Create a subfolder and change directory
