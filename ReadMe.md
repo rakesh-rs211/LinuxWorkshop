@@ -1,4 +1,4 @@
-# Introduction to Linux Workshop - Fall 2024
+# Introduction to Linux Workshop - Fall 2025
 This readme file is complimentary to slides for the workshop to make it easier to follow through and copy the commands, as required. Recording from a similar workshop from Oct 2023 is available: https://vimeo.com/877113992
 
 ## **Table of content** 
@@ -20,9 +20,9 @@ This readme file is complimentary to slides for the workshop to make it easier t
 ## Getting started
 To begin with let's connect to a remote server, Frontenac, to access a *Linux Shell*
 
-> ssh sa130XXX@login.cac.queensu.ca
+> ssh sa4898XXX@login.cac.queensu.ca
 
-Note: Replace '*sa130XXX*' with the username you received earlier to your registered email. The *-Y* flag enables X11 forwarding for graphical interface. 
+Note: Replace '*sa4898XXX*' with the username you received earlier to your registered email. The *-Y* flag enables X11 forwarding for graphical interface. 
 
 ### *Exercise 0* 
 1. Download a MobaXterm or any other terminal emulator and installing on your computer. For Mac user, you can open the '*Terminal*' application.
