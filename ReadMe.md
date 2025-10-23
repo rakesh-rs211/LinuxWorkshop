@@ -32,7 +32,7 @@ Note: Replace '*sa4898XXX*' with the username you received earlier to your regis
 
 Take ~15 minutes to complete this exercise and give us a thumbs-up in the chat once you are logged in.
 
-**Note(Optional)**: Course material for this workshop are located at '/global/project/Workshop2024/IntroLinux/CourseMaterial.tar.gz'. You have read permission to copy the 'tar' file. We have created a folder '/global/project/Workshop2024/sausers' with read/write access to all the student accounts. You can create a new sub-directory with your username,'sa130xxx', in this path and copy the file 'CourseMaterial.tar.gz' here.
+**Note(Optional)**: Course material for this workshop are located at '/global/teaching-project/sg4898000/Workshop2025/CourseMaterial.tar.gz'. You have read permission to copy the 'tar' file. We have created a folder '/global/teaching-project/sg4898000/Workshop2025/sausers' with read/write access to all the student accounts. You can create a new sub-directory with your username,'sa130xxx', in this path and copy the file 'CourseMaterial.tar.gz' here.
 
 After copying 'tar' to a folder, you can use the following command to untar or decompress the file
 ```console
@@ -50,18 +50,18 @@ Once you are logged to a Linux machine(Frontenac), let explore the filesystem wi
  - **ls**    :&emsp;&emsp;      List files and sub-directories in the directory
 ```console
 $ pwd 
-/global/home/sa130000 
-$ cd /global/project/Workshop2024/IntroLinux 
+/global/teaching-home/sg4898001
+$ cd /global/teaching-project/sg4898000/Workshop2025/IntroLinux 
 $ cd ..              # Go to parent directory 
 $ cd ../..           # Moves two directories up
 $ cd -               # Goes to previous directory 
-/global/project/Workshop2024
+/global/teaching-project/sg4898000/Workshop2025
 $ ls 
-CourseMaterial.tar.gz  IntroBioInfo  IntroHPC  IntroLinux  IntroMPI_Python  IntroPython  sausers
+CourseMaterial.tar.gz  IntroHPC  IntroLinux  sausers
 $ cd ./IntroLinux/CourseMaterial/   # Relative path 
 $ cd ~               # Go to user's home directory 
 $ pwd 
-/global/home/sa130000
+/global/teaching-home/sg4898001
 ```
 ```console
 $ man ls # Manual pages for the command 'ls' 
@@ -73,7 +73,7 @@ Take 10 minutes for this exercise to explore the filesytem.
 
 1. Open a terminal on your local computer(or on Frontenac) and change present working directory to $HOME and identify all the files in the folder 
 2. (Optional) Explore various flags for ‘ls’ command using ‘man’ or ‘- -help’ and find the option to print all the files including hidden file(has a ‘.’ prefix in the file name)
-3. Change the directory to '/global/project/Workshop2024/IntroLinux' and list all the sub-folders
+3. Change the directory to '/global/teaching-project/sg4898000/Workshop2025/IntroLinux' and list all the sub-folders
 
 ## Creating files
 
@@ -135,7 +135,7 @@ file01.txt
 
 Take 15 minutes to complete this exercise
 
-1. Change directory to ‘/global/project/Workshop2024/sausers’ and create a folder with your username ‘sa130xxx’
+1. Change directory to ‘/global/teaching-project/sg4898000/Workshop2025/sausers’ and create a folder with your username ‘sa4898xxx’
 2. Create a file in this folder and enter your first line(‘This is the first line’) into this file 
 3. Now copy the file to a new file
 4. And add a second line to the folder ‘This is a second line’
@@ -170,9 +170,9 @@ Athena, Bane, Toronto, ON
 ```
 Commands to copy course material
 ```
-cd /global/project/Workshop2024/sausers/
-cp CourseMaterial.tar.gz sa130244/
-cd sa130244
+cd /global/teaching-project/sg4898000/Workshop2025/sausers/
+cp CourseMaterial.tar.gz sa4898001/
+cd sa4898001
 tar xvfz CourseMaterial.tar.gz
 cd CourseMaterial/
 ```
@@ -323,7 +323,7 @@ The value of PI is: 3.1416
 ## File permissions
 
 ### Exercise 5
-1. Copy the folder from '*/global/project/Workshop2024/IntroLinux/CourseMaterial/Example01*' and troubleshoot if you face any issue
+1. Copy the folder from '*/global/teaching-project/sg4898000/Workshop2025/IntroLinux/CourseMaterial/Example01*' and troubleshoot if you face any issue
    
 Note: All sa130XXX accounts are part of sg130000  group
 
@@ -336,7 +336,7 @@ $ myWorkDir="~/.local/workdir'
 $ mkdir -P $myWorkDir
 $ cd $myWorkDir
 $ pwd
-/global/home/sa130000/.local/workdir
+/global/teaching-home/sg4898001/.local/workdir
 ```
 ### Exercise 6
 1. Load a module called dealii using the following commands and check how the path variable changes with each command
