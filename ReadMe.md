@@ -247,8 +247,7 @@ We can redirect(or pipe) output from command to the other using '|' key. You can
 - **find** : Find the files and directories in specified directories and sub-directories
 
 ```console
-$ module load nixpkgs/16.09
-$ module load qt/5.9.6
+$ module load qt/5.15.11
 $ cd $EBROOTQT5
 [5.9.6]$ find $EBROOTQT5 -type d -name "Qt*"
 …
