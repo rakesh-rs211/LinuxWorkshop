@@ -43,7 +43,7 @@ Shell is a program that acts as an interface between the user and the operating 
 
 ## Navigating the filesystem
 
-Once you are logged to a Linux machine(Frontenac), let explore the filesystem with few basic commands.
+Once you are logged into a Linux machine(Frontenac), let explore the filesystem with few basic commands.
 
  - **pwd**   :&emsp;      Present Working Directory
  - **cd**    :&emsp;&emsp;      Change Directory
