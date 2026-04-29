@@ -39,7 +39,7 @@ After copying 'tar' to a folder, you can use the following command to untar or d
 tar xvfz CourseMaterial.tar.gz
 ```
 ## Linux shell
-Shell is a program that acts a interface between the user and the operating system(Linux kernel) through CLI. On most GNU based system, bash(Bourne-Again-Shell) is the default shell. Almost all operating system including *Windows* have a shell program. On *Windows*, we have *Powershell*. 
+Shell is a program that acts as an interface between the user and the operating system(Linux kernel) through command  line(CLI). On most GNU based systems, bash(Bourne-Again-Shell) is the default shell. Almost all operating system including *Windows* have a shell program. On *Windows*, we have *Powershell*. 
 
 ## Navigating the filesystem
 
